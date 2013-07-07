@@ -1,3 +1,7 @@
 *.pyc
 .idea/
 .DS_Store
+
+
+## personal
+config.py
