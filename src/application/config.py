@@ -1,6 +1,0 @@
-#!/usr/bin/env python
-#-*-coding:utf-8-*-
-
-APP_KEY = '1234567' # app key
-APP_SECRET = 'abcdefghijklmn' # app secret
-CALLBACK_URL = 'http://www.example.com/callback' # callback url
