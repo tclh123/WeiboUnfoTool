@@ -3,8 +3,13 @@
 <ul>
     <p>
         Hello WeiboUnfoTool! <br />
-        {{ context.name }} <br />
-        {{context2}}
+        {{ user.name }} <br />
     </p>
+    <p>total {{ friends.total_number }}</p>
+    <ul>
+    {% for f in friends.ids: %}
+        <li>{{ f }}</li>
+    {% endfor %}
+    </ul>
 </ul>
 {% endblock %}
